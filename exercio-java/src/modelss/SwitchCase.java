@@ -5,14 +5,14 @@ import java.util.Scanner;
 
 public class SwitchCase {
     public static void main(String[] args) {
-        Scanner prohibited = new Scanner(System.in);
+        Scanner entry  = new Scanner(System.in);
         int code;
 
         System.out.print("code checker\n\n");
 
 
         System.out.print("type the code:  ");
-        code = prohibited.nextInt();
+        code = entry.nextInt();
 
 
 
